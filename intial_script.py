@@ -23,7 +23,7 @@ for index, row in df.iterrows():
     dec_deg = c.dec.deg
 
     # Update the DataFrame with the converted values
-    df.at[index, 'RA (deg)']  = ra_deg
+    #df.at[index, 'RA (deg)']  = ra_deg
     df.at[index, 'Dec (deg)'] = dec_deg
 
 # Print the DataFrame to check the degree calculation
